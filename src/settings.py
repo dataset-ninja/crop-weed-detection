@@ -5,25 +5,31 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, Domain, Re
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
-PROJECT_NAME_FULL: str = None
+PROJECT_NAME: str = "Crop and Weed Detection data with bounding boxes"
+PROJECT_NAME_FULL: str = "Crop and Weed Detection data with bounding boxes"
 
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = None
-APPLICATIONS: List[Union[Industry, Domain, Research]] = None
-CV_TASKS: List[CVTask] = None
-ANNOTATION_TYPES: List[AnnotationType] = None
+LICENSE: License = License.CC0_1_0()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Agriculture(),
+    Domain.General(),
+    Research.Biological(),
+]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
-RELEASE_YEAR: int = None
-HOMEPAGE_URL: str = None
+RELEASE_YEAR: int = 2020
+HOMEPAGE_URL: str = (
+    "https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes"
+)
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 1672453
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = None
+GITHUB_URL: str = "https://github.com/dataset-ninja/crop-weed-detection"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
