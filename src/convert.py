@@ -60,7 +60,7 @@ def convert_and_upload_supervisely_project(
     project_path = "/mnt/c/users/german/documents/agri_data/data"
 
     directory = os.path.dirname(project_path)
-    with open("/  b  mnt/c/users/german/documents/agri_data/classes.txt") as names_file:
+    with open("/mnt/c/users/german/documents/agri_data/classes.txt") as names_file:
         names = names_file.read().split("\n")
 
     def yolobbox2bbox(x, y, w, h):

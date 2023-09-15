@@ -1,3 +1,3 @@
-# Crop and weed detection data with bounding boxes
+# Crop and Weed Detection Data With Bounding Boxes
 
-Crop and weed detection data with bounding boxes is a dataset for object detection task.
+Crop and Weed Detection is a dataset for object detection task tasks.
