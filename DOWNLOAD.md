@@ -1,6 +1,6 @@
 Dataset **Crop and Weed Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/s/q/3T/4U3nnjZCJtvSd04qheaPgt25LT7zqsgQj7UQIygoaIGXTjwAVImHlUVYDyY9hziD9NzzOnZ9Kew2zRDDUMz2syiKpDmtYiBK7fWYy8hZm0CPG3ImiMlTqUvxenXW.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/h/b/27/IVSryAYkSbYGtI8i8A8Nlmv8PWPxUQxbQM5f7ytAEXYKY5f2cKqVYh86BUKEZFt7sIncxkFy00qSP3TJogRSWaYCC5PJojMF913TH6biSRbeCYInyMHA3MsOldGQ.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
