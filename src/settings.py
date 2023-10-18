@@ -61,7 +61,7 @@ PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = "https://github.com/ravirajsinh45/Crop_and_weed_detection"
+] = {"GitHub": "https://github.com/ravirajsinh45/Crop_and_weed_detection"}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Panara Utsav", "Pandya Raviraj", "Mohit Rayja"]
