@@ -65,6 +65,7 @@ REPOSITORY: Optional[
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Panara Utsav", "Pandya Raviraj", "Mohit Rayja"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["ravirajsinhdabhi86@gmail.com", "https://www.linkedin.com/in/ravirajsinh45"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
@@ -118,6 +119,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
