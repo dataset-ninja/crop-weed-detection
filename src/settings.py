@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Crop and Weed Detection"
-PROJECT_NAME_FULL: str = "Crop and Weed Detection data with bounding boxes"
+PROJECT_NAME_FULL: str = "Crop and Weed Detection Data with Bounding Boxes "
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
