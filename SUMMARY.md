@@ -1,4 +1,4 @@
-**Crop and Weed Detection Data with Bounding Boxes ** is a dataset for an object detection task. Possible applications of the dataset could be in the agricultural industry. 
+**Crop and Weed Detection Data with Bounding Boxes** is a dataset for an object detection task. Possible applications of the dataset could be in the agricultural industry. 
 
 The dataset consists of 1300 images with 2072 labeled objects belonging to 2 different classes including *weed* and *crop*.
 
